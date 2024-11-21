@@ -72,6 +72,7 @@ fun WebViewScreen(
                         javaScriptEnabled = true
                         domStorageEnabled = true
                         loadWithOverviewMode = true
+                        allowFileAccess = true
                     }
 
                     webViewClient = object : WebViewClient() {
